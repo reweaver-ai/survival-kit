@@ -43,6 +43,14 @@ Use this checklist before completing ANY coding task. Code that fails verificati
 - [ ] No code comments containing "workaround", "hack", "temporary fix", "kept for compatibility"
 - [ ] Removing the fix would NOT expose a bug elsewhere (if it would, it's a workaround)
 
+## 🔴 Multi-Agent Safety
+
+- [ ] No parallel agents editing the same file
+- [ ] Parent conversation not editing files delegated to agents
+- [ ] Bulk renames handled by a single agent, not split across multiple
+- [ ] Agent results spot-checked for silently reverted changes
+- [ ] Changes committed before delegating multi-file edits to agents
+
 ## 🟠 Data Integrity
 
 - [ ] No hardcoded design values (colors, spacing, typography)

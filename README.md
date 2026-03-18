@@ -42,6 +42,7 @@ This system distills 20+ battle-tested engineering guardrails (born from real pr
 | `CLAUDE.md` | Claude Code / CLAUDE.md format | Root of repo for Claude Code |
 | `SKILL-workarounds.md` | Deep skill: Root-cause fixing | Claude skill / reference doc |
 | `SKILL-performance.md` | Deep skill: Optimization & resources | Claude skill / reference doc |
+| `SKILL-multi-agent.md` | Deep skill: Multi-agent file safety | Claude skill / reference doc |
 
 ## Quick Start
 

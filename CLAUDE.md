@@ -195,6 +195,7 @@ import { Service } from '../../../packages/core/service';
 4. **Question forbidden patterns** — mark violations, provide correct alternatives
 5. **Complete verification** — run checklist before completing any task
 6. **Never use `cd` to project root** — shell already starts there
+7. **One writer per file** — Never spawn parallel agents that edit the same file. Parallel reads are safe; serialize all writes to the same file through a single agent. Spot-check agent results for silently reverted changes.
 
 ---
 

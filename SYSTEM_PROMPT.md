@@ -167,6 +167,9 @@ Every addEventListener needs a removeEventListener. Every setInterval needs a cl
 ### Documentation Discipline
 Comments explain why, not what. Document public APIs with JSDoc. Keep "Last Updated" dates accurate when modifying documents.
 
+### Multi-Agent File Safety
+When spawning sub-agents for parallel work, never let multiple agents edit the same file concurrently. Parallel agents are safe for reading (research, searching, analysis). For writing, ensure each file is edited by exactly one agent. Bulk renames and cross-file refactors must go through a single agent in one pass. After an agent returns, spot-check its files — string-replacement collisions can silently revert prior changes with no error.
+
 ---
 
 ## BEFORE YOU'RE DONE
