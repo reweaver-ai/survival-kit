@@ -44,6 +44,21 @@ This system distills 20+ battle-tested engineering guardrails (born from real pr
 | `SKILL-performance.md` | Deep skill: Optimization & resources | Claude skill / reference doc |
 | `SKILL-multi-agent.md` | Deep skill: Multi-agent file safety | Claude skill / reference doc |
 
+## Expansion Pack
+
+The original kit governs how AI *writes* code. The **[Expansion Pack](expansion-pack/)** governs how AI-written code *behaves* — under concurrency, under test, under real configuration, and over time. It names failure classes the base kit didn't cover and goes deeper on ones it did. Same three-layer model, same format, drop-in.
+
+| File | Adds |
+|------|------|
+| `expansion-pack/SKILL-testing.md` | Test behavior, not implementation |
+| `expansion-pack/SKILL-concurrency.md` | Race conditions, async safety, cancellation |
+| `expansion-pack/SKILL-migration.md` | Incremental, value-adding legacy migration |
+| `expansion-pack/SKILL-data-truth.md` | Never fabricate data; fail or render nothing |
+| `expansion-pack/SKILL-maintainability.md` | Naming, complexity limits, no stub/dead code |
+| `expansion-pack/PATCH-*.md` | Drop-in additions to your existing skills & tool configs |
+
+See [`expansion-pack/README.md`](expansion-pack/README.md) and [`expansion-pack/UPDATES.md`](expansion-pack/UPDATES.md) for the full list and install steps.
+
 ## Quick Start
 
 ### For Claude Code
