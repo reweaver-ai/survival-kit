@@ -1,4 +1,4 @@
-# AI CODING SURVIVAL KIT : A GOVERNANCE FRAMEWORK FOR AI-ASSISTED DEVELOPMENT
+# DRIFT PREVENTION TOOLKIT : A GOVERNANCE FRAMEWORK FOR AI-ASSISTED DEVELOPMENT
 Battle-tested strategies to keep humans in control of AI-generated code quality
 
 **Version**: 1.0  
